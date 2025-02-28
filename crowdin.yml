@@ -4,4 +4,5 @@
 
 'preserve_hierarchy': true
 
-'files': [{ 'source': 'i18n/*', 'translation': '%locale_with_underscore%.csv' }]
+'files':
+    [{ 'source': '**/*', 'translation': 'i18n/%locale_with_underscore%.csv' }]
