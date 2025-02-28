@@ -8,6 +8,6 @@
     [
         {
             'source': 'i18n/en_US.csv',
-            'translation': 'i18n/%locale_with_underscore%.csv',
+            'translation': '%locale_with_underscore%.csv',
         },
     ]
